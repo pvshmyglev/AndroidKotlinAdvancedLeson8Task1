@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:id="@+id/mapMarkerConstraintLayout">
+
+    <TextView
+        android:id="@+id/title_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_medium_margin"
+        android:textSize="@dimen/size_medium_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/title_marker_title"/>
+
+    <EditText
+        android:id="@+id/text_title"
+        android:background="@drawable/shape_on_edit_text"
+        android:padding="@dimen/shape_text_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/title_title"
+        app:layout_constraintBottom_toTopOf="@id/title_description"
+        tools:text="@sample/marker.json/data/title"
+        />
+
+    <TextView
+        android:id="@+id/title_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_title"
+        android:textSize="@dimen/size_medium_title"
+        android:text="@string/title_marker_description"
+        />
+
+    <EditText
+        android:id="@+id/text_description"
+        android:background="@drawable/shape_on_edit_text"
+        android:padding="@dimen/shape_text_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/title_description"
+        tools:text="@sample/marker.json/data/description"
+        />
+
+    <TextView
+        android:id="@+id/title_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_medium_margin"
+        app:layout_constraintTop_toBottomOf="@id/text_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text_latitude"
+        android:textSize="@dimen/size_medium_title"
+        android:text="@string/title_marker_latitude" />
+
+    <EditText
+        android:id="@+id/text_latitude"
+        android:background="@drawable/shape_on_edit_text"
+        android:paddingStart="@dimen/shape_text_padding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/title_latitude"
+        app:layout_constraintBottom_toBottomOf="@id/title_latitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/title_latitude"
+        android:textSize="@dimen/size_medium_title"
+        tools:text="@sample/marker.json/data/latitude"
+        />
+
+    <TextView
+        android:id="@+id/title_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_medium_margin"
+        app:layout_constraintTop_toBottomOf="@id/text_latitude"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text_longitude"
+        android:textSize="@dimen/size_medium_title"
+        android:text="@string/title_marker_longitude" />
+
+    <EditText
+        android:id="@+id/text_longitude"
+        android:background="@drawable/shape_on_edit_text"
+        android:paddingStart="@dimen/shape_text_padding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/title_longitude"
+        app:layout_constraintBottom_toBottomOf="@id/title_longitude"
+        app:layout_constraintStart_toEndOf="@id/title_longitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/size_medium_title"
+        tools:text="@sample/marker.json/data/longitude" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="title_latitude,text_latitude,title_longitude,text_longitude"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

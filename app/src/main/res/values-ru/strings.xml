@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">НМедиа</string>
+    <string name="text_edit_description_marker">Описание для точки</string>
+    <string name="title_marker_description">Описание:</string>
+    <string name="title_marker_longitude">Долгота:</string>
+    <string name="title_marker_latitude">Широта:</string>
+    <string name="title_marker_title">Заголовок:</string>
+    <string name="text_more">Еще</string>
+    <string name="text_menu_edit">Изменить</string>
+    <string name="text_menu_remove">Удалить</string>
+    <string name="text_menu_save">Сохранить</string>
+</resources>

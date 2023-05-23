@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/08_maps/android/app/src/main/res/layout/activity_app.xml" value="0.28804347826086957" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/08_maps/android/app/src/main/res/layout/fragment_maps.xml" value="0.28804347826086957" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable-anydpi-v24/ic_notification.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_map_point_24.xml" value="0.125" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_my_location_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_baseline_view_list_24.xml" value="0.1355" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/ic_netology_48dp.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/drawable/shape_on_edit_text.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/layout/activity_app.xml" value="0.28804347826086957" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/layout/card_marker.xml" value="0.1" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/layout/fragment_edit_map_marker.xml" value="0.33" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/layout/fragment_list_maerkers.xml" value="0.33" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/menu/options_edit_marker.xml" value="0.1" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/menu/options_marker.xml" value="0.359375" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/menu/options_new_post.xml" value="0.359375" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.342" />
+        <entry key="..\:/Users/Fors/AndroidStudioProjectsAdvanced/AndroidKotlinAdvancedLeson8Task1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.342" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

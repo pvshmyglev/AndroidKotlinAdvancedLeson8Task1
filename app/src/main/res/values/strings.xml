@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NMedia</string>
+    <string name="text_edit_description_marker">Description for marker</string>
+    <string name="title_marker_description">Description:</string>
+    <string name="title_marker_longitude">Longitude:</string>
+    <string name="title_marker_latitude">Latitude:</string>
+    <string name="title_marker_title">Title:</string>
+    <string name="text_more">More</string>
+    <string name="text_menu_edit">Edit</string>
+    <string name="text_menu_remove">Remove</string>
+    <string name="text_menu_save">Save</string>
+</resources>

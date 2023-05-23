@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/nav_maps_fragment">
+
+
+    <fragment
+        android:id="@+id/nav_maps_fragment"
+        android:name="ru.netology.nmedia.ui.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_nav_maps_fragment_to_nav_edit_map_marker_fragment"
+            app:destination="@id/nav_edit_map_marker_fragment" />
+        <action
+            android:id="@+id/action_nav_maps_fragment_to_listMarkersFragment"
+            app:destination="@id/listMarkersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_edit_map_marker_fragment"
+        android:name="ru.netology.nmedia.ui.EditMapMarkerFragment"
+        android:label="EditMapMarkerFragment"
+        tools:layout="@layout/fragment_edit_map_marker"
+        />
+    <fragment
+        android:id="@+id/listMarkersFragment"
+        android:name="ru.netology.nmedia.ui.ListMarkersFragment"
+        android:label="fragment_list_maerkers"
+        tools:layout="@layout/fragment_list_maerkers" >
+        <action
+            android:id="@+id/action_nav_list_markers_fragment_to_edit_map_marker_fragment"
+            app:destination="@id/nav_edit_map_marker_fragment" />
+        <action
+            android:id="@+id/action_nav_list_markers_fragment_to_maps_fragment"
+            app:destination="@id/nav_maps_fragment" />
+    </fragment>
+</navigation>

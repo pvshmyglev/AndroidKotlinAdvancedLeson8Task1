@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_avatar">48dp</dimen>
+    <dimen name="size_icon">24dp</dimen>
+    <dimen name="size_video">168dp</dimen>
+    <dimen name="size_margin">16dp</dimen>
+    <dimen name="size_light_margin">4dp</dimen>
+    <dimen name="size_medium_margin">8dp</dimen>
+    <dimen name="size_text_button">12dp</dimen>
+    <dimen name="size_text_field">48sp</dimen>
+    <dimen name="size_medium_title">24sp</dimen>
+    <dimen name="size_large_title">48sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="shape_text_width">4dp</dimen>
+    <dimen name="shape_text_padding">6dp</dimen>
+</resources>
+
